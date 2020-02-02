@@ -1,0 +1,5 @@
+# Redirect default Netlify subdomain to primary domain
+http://wonderful-edison-7a6814.netlify.com/* https://todo-svelte.mchone.dev/:splat 301!
+
+# Redirect http traffic to https
+http://todo-svelete.mchone.dev/* https://todo-svelte.mchone.dev/:splat 301!
